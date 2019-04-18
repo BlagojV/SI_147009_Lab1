@@ -1,0 +1,31 @@
+1. Introduction to Git commits (0.5 ?.)
+git commit
+git commit
+2. Git branching (0.5 ?.)
+git checkout -b bugFix
+3. Merging in Git (1.5 ?.)
+git checkout -b bugFix
+git commit
+git checkout master
+git commit
+git merge bugFix
+4. Rebase Introduction (1.5 ?.)
+git checkout -b bugFix
+git commit
+git checkout master
+git rebase master
+
+Advanced topics
+
+1. Rebasing over 9000 times (2 ?.)
+git checkout bugFix
+git rebase master
+git checkout side
+git rebase bugFix
+git checkout another
+git rebase side
+git rebase another master
+2. Multiple parents (2 ?.)
+git checkout HEAD~^2~2
+git branch bugWork
+git checkout master
